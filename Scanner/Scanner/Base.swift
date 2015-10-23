@@ -28,7 +28,8 @@ extension String {
 */
 func scan(pattern: CompoundScanPattern) -> Bool {
     let stdin = NSFileHandle.fileHandleWithStandardInput()
-    guard let inputString = NSString(data: stdin.availableData, encoding: NSUTF8StringEncoding) as String? else { return false }
+    guard var inputString = NSString(data: stdin.availableData, encoding: NSUTF8StringEncoding) as String? else { return false }
+    inputString.removeAtIndex(inputString.endIndex.predecessor()) // Remove new line character
     return inputString.scan(pattern)
 }
 
@@ -109,3 +110,4 @@ public struct CompoundScanPattern: StringInterpolationConvertible, StringLiteral
         fatalError("CompoundScanPattern can only be constructed with `Match` type and `MatchVerifyable` types.")
     }
 }
+
