@@ -1,6 +1,6 @@
 # Scanner
 
-Remember in C how you had to use `printf`---it was so gross!
+Remember in C how you had to use `printf`—it was so gross!
 ```c
 int x = 5;
 printf("The number is %i", x); // -> The number is 5
