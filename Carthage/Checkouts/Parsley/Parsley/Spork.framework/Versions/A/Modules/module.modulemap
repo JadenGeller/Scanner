@@ -1,0 +1,3 @@
+framework module Spork {
+    header "Spork-Swift.h"
+}

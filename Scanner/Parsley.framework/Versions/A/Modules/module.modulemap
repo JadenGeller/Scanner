@@ -1,0 +1,3 @@
+framework module Parsley {
+    header "Parsley-Swift.h"
+}

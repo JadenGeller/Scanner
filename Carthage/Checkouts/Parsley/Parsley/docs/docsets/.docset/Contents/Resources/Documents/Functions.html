@@ -1,0 +1,2947 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Functions  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+  </head>
+  <body>
+    <a title="Functions  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html"> Docs</a> (59% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html"> Reference</a>
+        <img id="carat" src="img/carat.png" />
+        Functions  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+          <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/InputStream.html">InputStream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ParseState.html">ParseState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/TextStream.html">TextStream</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+          <a href="Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/Either.html">Either</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+          <a href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Extensions/Parser.html">Parser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/ParserType.html">ParserType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/StreamType.html">StreamType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+          <a href="Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley3anyurFT_GVS_6Parserq_q__">any()</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley12anyCharacterFtGSaVSs9Character__GVS_6ParserS0_S0__">anyCharacter(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley9appendingurFtGSaGVS_6Parserq_SS___GS0_q_SS_">appending(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley7attemptu0_rFGVS_6Parserq_q0__GS0_q_q0__">attempt(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley7betweenu2_rFTGVS_6Parserq_q0__GS0_q_q1__5parseGS0_q_q2___GS0_q_q2__">between(_:_:parse:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley9characterFVSs9CharacterGVS_6ParserS0_S0__">character(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley8coalesceu1_Rq1_Ss12SequenceTypezqqq1_S0_9GeneratorSs13GeneratorType7ElementGVS_6Parserq_q0___Fq1_GS2_q_q0__">coalesce(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley8coalesceu0_rFtGSaGVS_6Parserq_q0____GS0_q_q0__">coalesce(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley5digitFT_GVS_6ParserVSs9CharacterS1__">digit()</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley8dropLeftu1_rFTGVS_6Parserq_q0__GS0_q_q1___GS0_q_q1__">dropLeft(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley9dropRightu1_rFTGVS_6Parserq_q0__GS0_q_q1___GS0_q_q0__">dropRight(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley6eitheru1_rFTGVS_6Parserq_q0__GS0_q_q1___GS0_q_GOS_6Eitherq0_q1___">either(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley3endurFT_GVS_6Parserq_T__">end()</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley6letterFT_GVS_6ParserVSs9CharacterS1__">letter()</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley9lookaheadu0_rFGVS_6Parserq_q0__GS0_q_q0__">lookahead(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley4manyu0_rFGVS_6Parserq_q0__GS0_q_GSaq0___">many(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley5many1u0_rFGVS_6Parserq_q0__GS0_q_GSaq0___">many1(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley14many1Delimitedu1_rFTGVS_6Parserq_q1__9delimiterGS0_q_q0___GS0_q_GSaq1___">many1Delimited(_:delimiter:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley13manyDelimitedu1_rFTGVS_6Parserq_q1__9delimiterGS0_q_q0___GS0_q_GSaq1___">manyDelimited(_:delimiter:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley4noneurFT_GVS_6Parserq_T__">none()</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley3notu0_rFGVS_6Parserq_q0__GS0_q_T__">not(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley8optionalu0_rFGVS_6Parserq_q0__GS0_q_GSqq0___">optional(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley8optionalu0_rFGVS_6Parserq_GSaq0___GS0_q_GSaq0___">optional(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley8optionalu0_rFTGVS_6Parserq_q0__9otherwiseq0__GS0_q_q0__">optional(_:otherwise:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley12preconditionu1_rFTGVS_6Parserq_q0__9thenParseGS0_q_q1___GS0_q_q1__">precondition(_:thenParse:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley4pureu0_rFq0_GVS_6Parserq_q0__">pure(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley8recuriveu0_rFFGVS_6Parserq_q0__GS0_q_q0__GS0_q_q0__">recurive(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley7satisfyurFFq_SbGVS_6Parserq_q__">satisfy(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley7satisfyurFTSSFq_Sb_GVS_6Parserq_q__">satisfy(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley8sequenceu1_rFTGVS_6Parserq_q0__GS0_q_q1___GS0_q_Tq0_q1___">sequence(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley8sequenceu2_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2___GS0_q_Tq0_q1_q2___">sequence(_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley8sequenceu3_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3___GS0_q_Tq0_q1_q2_q3___">sequence(_:_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley8sequenceu4_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4___GS0_q_Tq0_q1_q2_q3_q4___">sequence(_:_:_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley8sequenceu5_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4__GS0_q_q5___GS0_q_Tq0_q1_q2_q3_q4_q5___">sequence(_:_:_:_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley8sequenceu6_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4__GS0_q_q5__GS0_q_q6___GS0_q_Tq0_q1_q2_q3_q4_q5_q6___">sequence(_:_:_:_:_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley8sequenceu7_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4__GS0_q_q5__GS0_q_q6__GS0_q_q7___GS0_q_Tq0_q1_q2_q3_q4_q5_q6_q7___">sequence(_:_:_:_:_:_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley8sequenceu8_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4__GS0_q_q5__GS0_q_q6__GS0_q_q7__GS0_q_q8___GS0_q_Tq0_q1_q2_q3_q4_q5_q6_q7_q8___">sequence(_:_:_:_:_:_:_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley8sequenceu9_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4__GS0_q_q5__GS0_q_q6__GS0_q_q7__GS0_q_q8__GS0_q_q9___GS0_q_Tq0_q1_q2_q3_q4_q5_q6_q7_q8_q9___">sequence(_:_:_:_:_:_:_:_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley9sequencedu1_Rq1_Ss12SequenceTypezqqq1_S0_9GeneratorSs13GeneratorType7ElementGVS_6Parserq_q0___Fq1_GS2_q_GSaq0___">sequenced(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley9sequencedu0_rFtGSaGVS_6Parserq_q0____GS0_q_GSaq0___">sequenced(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley6stringFSSGVS_6ParserVSs9CharacterGSaS1___">string(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley11terminatingu0_rFGVS_6Parserq_q0__GS0_q_q0__">terminating(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley7throughurFGVS_6Parserq_q__GS0_q_GSaq___">through(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley7throughurFGVS_6Parserq_GSaq___GS0_q_GSaq___">through(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley7throughu0_rFTGVS_6Parserq_GSaq0___5parseGS0_q_q0___GS0_q_GSaq0___">through(_:parse:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley7throughu0_rFTGVS_6Parserq_q0__5parseGS0_q_GSaq0____GS0_q_GSaq0___">through(_:parse:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley7throughu0_rFTGVS_6Parserq_q0__5parseGS0_q_q0___GS0_q_GSaq0___">through(_:parse:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley7throughu0_rFTGVS_6Parserq_GSaq0___5parseGS0_q_GSaq0____GS0_q_GSaq0___">through(_:parse:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley5tokenuRq_Ss9Equatable_Fq_GVS_6Parserq_q__">token(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley6unlessu0_rFGVS_6Parserq_q0__GS0_q_q__">unless(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley6unlessu1_rFTGVS_6Parserq_q0__5parseGS0_q_q1___GS0_q_q1__">unless(_:parse:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley5untilu0_rFGVS_6Parserq_q0__GS0_q_GSaq___">until(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley5untilu1_rFTGVS_6Parserq_q0__5parseGS0_q_q1___GS0_q_GSaq1___">until(_:parse:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley10whitespaceFT_GVS_6ParserVSs9CharacterS1__">whitespace()</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley6withinFSSGVS_6ParserVSs9CharacterS1__">within(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley6withinuRq_Ss12SequenceTypeqqq_S0_9GeneratorSs13GeneratorType7ElementSs9Equatable_Fq_GVS_6Parserqqq_S0_9GeneratorS1_7Elementqqq_S0_9GeneratorS1_7Element_">within(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7Parsley6withinuRq_Ss12IntervalType_Fq_GVS_6Parserqq_S0_5Boundqq_S0_5Bound_">within(_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+          <a href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/ParserType.html">ParserType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/StreamType.html">StreamType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+          <a href="Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/ParseError.html">ParseError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ParseStateSnapshot.html">ParseStateSnapshot</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Parser.html">Parser</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Functions</h1>
+            <p>The following functions are available globally.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley4pureu0_rFq0_GVS_6Parserq_q0__"></a>
+                    <a name="//apple_ref/swift/Function/pure(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley4pureu0_rFq0_GVS_6Parserq_q0__">pure(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that consumes no input and returns <code>value</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">pure</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">value</span><span class="p">:</span> <span class="kt">Result</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>value</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The value to return on parse.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley4noneurFT_GVS_6Parserq_T__"></a>
+                    <a name="//apple_ref/swift/Function/none()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley4noneurFT_GVS_6Parserq_T__">none()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that consumes no input and returns nothing.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="k">none</span><span class="o">&lt;</span><span class="kt">Token</span><span class="o">&gt;</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">()</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley3anyurFT_GVS_6Parserq_q__"></a>
+                    <a name="//apple_ref/swift/Function/any()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley3anyurFT_GVS_6Parserq_q__">any()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that consumes a single token and returns it.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">any</span><span class="o">&lt;</span><span class="kt">Token</span><span class="o">&gt;</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Token</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley3endurFT_GVS_6Parserq_T__"></a>
+                    <a name="//apple_ref/swift/Function/end()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley3endurFT_GVS_6Parserq_T__">end()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that succeeds if the input is empty. This parser
+consumes no input and returns nothing.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">end</span><span class="o">&lt;</span><span class="kt">Token</span><span class="o">&gt;</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">()</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley7satisfyurFFq_SbGVS_6Parserq_q__"></a>
+                    <a name="//apple_ref/swift/Function/satisfy(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley7satisfyurFFq_SbGVS_6Parserq_q__">satisfy(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that consumes a single token and returns the token
+if it satisfies <code>condition</code>; otherwise, it throws a <code>ParseError</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">satisfy</span><span class="o">&lt;</span><span class="kt">Token</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">condition</span><span class="p">:</span> <span class="kt">Token</span> <span class="o">-&gt;</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Token</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>condition</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The condition that the token must satisfy.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley7satisfyurFTSSFq_Sb_GVS_6Parserq_q__"></a>
+                    <a name="//apple_ref/swift/Function/satisfy(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley7satisfyurFTSSFq_Sb_GVS_6Parserq_q__">satisfy(_:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley5tokenuRq_Ss9Equatable_Fq_GVS_6Parserq_q__"></a>
+                    <a name="//apple_ref/swift/Function/token(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley5tokenuRq_Ss9Equatable_Fq_GVS_6Parserq_q__">token(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that consumes a single token and returns the token
+if it is equal to the argument <code>token</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">token</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">:</span> <span class="kt">Equatable</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">token</span><span class="p">:</span> <span class="kt">Token</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Token</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>token</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The token that the input is tested against.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley6withinuRq_Ss12IntervalType_Fq_GVS_6Parserqq_S0_5Boundqq_S0_5Bound_"></a>
+                    <a name="//apple_ref/swift/Function/within(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley6withinuRq_Ss12IntervalType_Fq_GVS_6Parserqq_S0_5Boundqq_S0_5Bound_">within(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that consumes a single token and returns the token
+if it is within the interval <code>interval</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">within</span><span class="o">&lt;</span><span class="kt">I</span><span class="p">:</span> <span class="kt">IntervalType</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">interval</span><span class="p">:</span> <span class="kt">I</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">I</span><span class="o">.</span><span class="kt">Bound</span><span class="p">,</span> <span class="kt">I</span><span class="o">.</span><span class="kt">Bound</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>interval</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The interval that the input is tested against.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley6withinuRq_Ss12SequenceTypeqqq_S0_9GeneratorSs13GeneratorType7ElementSs9Equatable_Fq_GVS_6Parserqqq_S0_9GeneratorS1_7Elementqqq_S0_9GeneratorS1_7Element_"></a>
+                    <a name="//apple_ref/swift/Function/within(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley6withinuRq_Ss12SequenceTypeqqq_S0_9GeneratorSs13GeneratorType7ElementSs9Equatable_Fq_GVS_6Parserqqq_S0_9GeneratorS1_7Elementqqq_S0_9GeneratorS1_7Element_">within(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that consumes a single token and returns the token
+if it is within the sequence <code>sequence</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">within</span><span class="o">&lt;</span><span class="kt">S</span><span class="p">:</span> <span class="kt">SequenceType</span> <span class="k">where</span> <span class="kt">S</span><span class="o">.</span><span class="kt">Generator</span><span class="o">.</span><span class="kt">Element</span><span class="p">:</span> <span class="kt">Equatable</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">sequence</span><span class="p">:</span> <span class="kt">S</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">S</span><span class="o">.</span><span class="kt">Generator</span><span class="o">.</span><span class="kt">Element</span><span class="p">,</span> <span class="kt">S</span><span class="o">.</span><span class="kt">Generator</span><span class="o">.</span><span class="kt">Element</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sequence</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The sequence that the input is tested against.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley7attemptu0_rFGVS_6Parserq_q0__GS0_q_q0__"></a>
+                    <a name="//apple_ref/swift/Function/attempt(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley7attemptu0_rFGVS_6Parserq_q0__GS0_q_q0__">attempt(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that runs attempts to run <code>parser</code> and backtracks on failure.
+On successful parse, this parser returns the result of <code>parse</code>; on failure, this parser
+catches the error, rewinds the <code>ParseState</code> back to the state before the parse, and
+rethrows the error.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">attempt</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">parser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>attempt</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser to run.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley9lookaheadu0_rFGVS_6Parserq_q0__GS0_q_q0__"></a>
+                    <a name="//apple_ref/swift/Function/lookahead(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley9lookaheadu0_rFGVS_6Parserq_q0__GS0_q_q0__">lookahead(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that runs <code>parser</code> without actually consuming any input.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">lookahead</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">parser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser to run.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley12preconditionu1_rFTGVS_6Parserq_q0__9thenParseGS0_q_q1___GS0_q_q1__"></a>
+                    <a name="//apple_ref/swift/Function/precondition(_:thenParse:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley12preconditionu1_rFTGVS_6Parserq_q0__9thenParseGS0_q_q1___GS0_q_q1__">precondition(_:thenParse:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that runs <code>condition</code> without consuming any input, running and returing the
+result of <code>parser</code> on success.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">precondition</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Discard</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">condition</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Discard</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">thenParse</span> <span class="nv">parser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>condition</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser that must succeed to continue.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser to run to determine the result.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley3notu0_rFGVS_6Parserq_q0__GS0_q_T__"></a>
+                    <a name="//apple_ref/swift/Function/not(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley3notu0_rFGVS_6Parserq_q0__GS0_q_T__">not(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will run <code>parser</code>; if <code>parser</code> succeeds, this parser will throw an error.
+If <code>parser</code> fails, this parser will succeed, consuming the input and returning nothing.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">not</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">parser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">()</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser to run.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley6unlessu1_rFTGVS_6Parserq_q0__5parseGS0_q_q1___GS0_q_q1__"></a>
+                    <a name="//apple_ref/swift/Function/unless(_:parse:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley6unlessu1_rFTGVS_6Parserq_q0__5parseGS0_q_q1___GS0_q_q1__">unless(_:parse:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will run <code>parser</code> only if <code>condition</code> fails. Note that <code>condition</code> will not consume any input.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">unless</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Ignore</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">condition</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Ignore</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">parse</span> <span class="nv">parser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>condition</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The condition that we check to be false before parsing.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser to run.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley6unlessu0_rFGVS_6Parserq_q0__GS0_q_q__"></a>
+                    <a name="//apple_ref/swift/Function/unless(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley6unlessu0_rFGVS_6Parserq_q0__GS0_q_q__">unless(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will parse a single token only if <code>condition</code> fails. Note that <code>condition</code> will not consume any input.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">unless</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Ignore</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">condition</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Ignore</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Token</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>condition</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The condition that we check to be false before parsing.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley8coalesceu1_Rq1_Ss12SequenceTypezqqq1_S0_9GeneratorSs13GeneratorType7ElementGVS_6Parserq_q0___Fq1_GS2_q_q0__"></a>
+                    <a name="//apple_ref/swift/Function/coalesce(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley8coalesceu1_Rq1_Ss12SequenceTypezqqq1_S0_9GeneratorSs13GeneratorType7ElementGVS_6Parserq_q0___Fq1_GS2_q_q0__">coalesce(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will parse with the first element of <code>parsers</code> that succeeds.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">coalesce</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="p">,</span> <span class="kt">Sequence</span><span class="p">:</span> <span class="kt">SequenceType</span> <span class="k">where</span> <span class="kt">Sequence</span><span class="o">.</span><span class="kt">Generator</span><span class="o">.</span><span class="kt">Element</span> <span class="o">==</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;&gt;</span>
+    <span class="p">(</span><span class="nv">parsers</span><span class="p">:</span> <span class="kt">Sequence</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parsers</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The sequence of parsers to attempt.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley8coalesceu0_rFtGSaGVS_6Parserq_q0____GS0_q_q0__"></a>
+                    <a name="//apple_ref/swift/Function/coalesce(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley8coalesceu0_rFtGSaGVS_6Parserq_q0____GS0_q_q0__">coalesce(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will parse with the first element of <code>parsers</code> that succeeds.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">coalesce</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">parsers</span><span class="p">:</span> <span class="p">(</span><span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">)</span><span class="o">...</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parsers</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A variadic list of parsers to attempt.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley6eitheru1_rFTGVS_6Parserq_q0__GS0_q_q1___GS0_q_GOS_6Eitherq0_q1___"></a>
+                    <a name="//apple_ref/swift/Function/either(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley6eitheru1_rFTGVS_6Parserq_q0__GS0_q_q1___GS0_q_GOS_6Eitherq0_q1___">either(_:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will parse with <code>rightParser</code> whenever <code>leftParser</code> fails.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">either</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">LeftResult</span><span class="p">,</span> <span class="kt">RightResult</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">leftParser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">LeftResult</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">rightParser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">RightResult</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Either</span><span class="o">&lt;</span><span class="kt">LeftResult</span><span class="p">,</span> <span class="kt">RightResult</span><span class="o">&gt;&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>leftParser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser to run first.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>rightParser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser to run whenever the first parser fails.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley9sequencedu1_Rq1_Ss12SequenceTypezqqq1_S0_9GeneratorSs13GeneratorType7ElementGVS_6Parserq_q0___Fq1_GS2_q_GSaq0___"></a>
+                    <a name="//apple_ref/swift/Function/sequenced(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley9sequencedu1_Rq1_Ss12SequenceTypezqqq1_S0_9GeneratorSs13GeneratorType7ElementGVS_6Parserq_q0___Fq1_GS2_q_GSaq0___">sequenced(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will parse will each element of <code>parsers</code>, sequentially. Parsing only succeeds if every
+parser succeeds, and the resulting parser returns an array of the results.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">sequenced</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="p">,</span> <span class="kt">Sequence</span><span class="p">:</span> <span class="kt">SequenceType</span> <span class="k">where</span> <span class="kt">Sequence</span><span class="o">.</span><span class="kt">Generator</span><span class="o">.</span><span class="kt">Element</span> <span class="o">==</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;&gt;</span>
+    <span class="p">(</span><span class="nv">parsers</span><span class="p">:</span> <span class="kt">Sequence</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">[</span><span class="kt">Result</span><span class="p">]</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parsers</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The sequence of parsers to sequentially run.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley9sequencedu0_rFtGSaGVS_6Parserq_q0____GS0_q_GSaq0___"></a>
+                    <a name="//apple_ref/swift/Function/sequenced(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley9sequencedu0_rFtGSaGVS_6Parserq_q0____GS0_q_GSaq0___">sequenced(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will parse will each element of <code>parsers</code>, sequentially. Parsing only succeeds if every
+parser succeeds, and the resulting parser returns an array of the results.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">sequenced</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">parsers</span><span class="p">:</span> <span class="p">(</span><span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">)</span><span class="o">...</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">[</span><span class="kt">Result</span><span class="p">]</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parsers</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The variadic list of parsers to sequentially run.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley8sequenceu1_rFTGVS_6Parserq_q0__GS0_q_q1___GS0_q_Tq0_q1___"></a>
+                    <a name="//apple_ref/swift/Function/sequence(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley8sequenceu1_rFTGVS_6Parserq_q0__GS0_q_q1___GS0_q_Tq0_q1___">sequence(_:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will run the passed-in parsers sequentially. Parsing only succeeds if all
+parsers succeed, and the resulting parser returns an tuple of the results.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">sequence</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">A</span><span class="p">,</span> <span class="kt">B</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">parserA</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">A</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserB</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">B</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">(</span><span class="kt">A</span><span class="p">,</span> <span class="kt">B</span><span class="p">)</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley8sequenceu2_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2___GS0_q_Tq0_q1_q2___"></a>
+                    <a name="//apple_ref/swift/Function/sequence(_:_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley8sequenceu2_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2___GS0_q_Tq0_q1_q2___">sequence(_:_:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will run the 2 passed-in parsers sequentially. Parsing only succeeds if both
+parsers succeed, and the resulting parser returns an tuple of the results.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">sequence</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">A</span><span class="p">,</span> <span class="kt">B</span><span class="p">,</span> <span class="kt">C</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">parserA</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">A</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserB</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">B</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserC</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">C</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">(</span><span class="kt">A</span><span class="p">,</span> <span class="kt">B</span><span class="p">,</span> <span class="kt">C</span><span class="p">)</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley8sequenceu3_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3___GS0_q_Tq0_q1_q2_q3___"></a>
+                    <a name="//apple_ref/swift/Function/sequence(_:_:_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley8sequenceu3_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3___GS0_q_Tq0_q1_q2_q3___">sequence(_:_:_:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will run the 3 passed-in parsers sequentially. Parsing only succeeds if all
+parsers succeed, and the resulting parser returns an tuple of the results.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">sequence</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">A</span><span class="p">,</span> <span class="kt">B</span><span class="p">,</span> <span class="kt">C</span><span class="p">,</span> <span class="kt">D</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">parserA</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">A</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserB</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">B</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserC</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">C</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserD</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">D</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">(</span><span class="kt">A</span><span class="p">,</span> <span class="kt">B</span><span class="p">,</span> <span class="kt">C</span><span class="p">,</span> <span class="kt">D</span><span class="p">)</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley8sequenceu4_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4___GS0_q_Tq0_q1_q2_q3_q4___"></a>
+                    <a name="//apple_ref/swift/Function/sequence(_:_:_:_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley8sequenceu4_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4___GS0_q_Tq0_q1_q2_q3_q4___">sequence(_:_:_:_:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will run the 4 passed-in parsers sequentially. Parsing only succeeds if all
+parsers succeed, and the resulting parser returns an tuple of the results.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">sequence</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">A</span><span class="p">,</span> <span class="kt">B</span><span class="p">,</span> <span class="kt">C</span><span class="p">,</span> <span class="kt">D</span><span class="p">,</span> <span class="kt">E</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">parserA</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">A</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserB</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">B</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserC</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">C</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserD</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">D</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserE</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">E</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">(</span><span class="kt">A</span><span class="p">,</span> <span class="kt">B</span><span class="p">,</span> <span class="kt">C</span><span class="p">,</span> <span class="kt">D</span><span class="p">,</span> <span class="kt">E</span><span class="p">)</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley8sequenceu5_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4__GS0_q_q5___GS0_q_Tq0_q1_q2_q3_q4_q5___"></a>
+                    <a name="//apple_ref/swift/Function/sequence(_:_:_:_:_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley8sequenceu5_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4__GS0_q_q5___GS0_q_Tq0_q1_q2_q3_q4_q5___">sequence(_:_:_:_:_:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will run the 5 passed-in parsers sequentially. Parsing only succeeds if all
+parsers succeed, and the resulting parser returns an tuple of the results.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">sequence</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">A</span><span class="p">,</span> <span class="kt">B</span><span class="p">,</span> <span class="kt">C</span><span class="p">,</span> <span class="kt">D</span><span class="p">,</span> <span class="kt">E</span><span class="p">,</span> <span class="kt">F</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">parserA</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">A</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserB</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">B</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserC</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">C</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserD</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">D</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserE</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">E</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserF</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">F</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">(</span><span class="kt">A</span><span class="p">,</span> <span class="kt">B</span><span class="p">,</span> <span class="kt">C</span><span class="p">,</span> <span class="kt">D</span><span class="p">,</span> <span class="kt">E</span><span class="p">,</span> <span class="kt">F</span><span class="p">)</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley8sequenceu6_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4__GS0_q_q5__GS0_q_q6___GS0_q_Tq0_q1_q2_q3_q4_q5_q6___"></a>
+                    <a name="//apple_ref/swift/Function/sequence(_:_:_:_:_:_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley8sequenceu6_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4__GS0_q_q5__GS0_q_q6___GS0_q_Tq0_q1_q2_q3_q4_q5_q6___">sequence(_:_:_:_:_:_:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will run the 6 passed-in parsers sequentially. Parsing only succeeds if all
+parsers succeed, and the resulting parser returns an tuple of the results.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">sequence</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">A</span><span class="p">,</span> <span class="kt">B</span><span class="p">,</span> <span class="kt">C</span><span class="p">,</span> <span class="kt">D</span><span class="p">,</span> <span class="kt">E</span><span class="p">,</span> <span class="kt">F</span><span class="p">,</span> <span class="kt">G</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">parserA</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">A</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserB</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">B</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserC</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">C</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserD</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">D</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserE</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">E</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserF</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">F</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserG</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">G</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">(</span><span class="kt">A</span><span class="p">,</span> <span class="kt">B</span><span class="p">,</span> <span class="kt">C</span><span class="p">,</span> <span class="kt">D</span><span class="p">,</span> <span class="kt">E</span><span class="p">,</span> <span class="kt">F</span><span class="p">,</span> <span class="kt">G</span><span class="p">)</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley8sequenceu7_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4__GS0_q_q5__GS0_q_q6__GS0_q_q7___GS0_q_Tq0_q1_q2_q3_q4_q5_q6_q7___"></a>
+                    <a name="//apple_ref/swift/Function/sequence(_:_:_:_:_:_:_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley8sequenceu7_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4__GS0_q_q5__GS0_q_q6__GS0_q_q7___GS0_q_Tq0_q1_q2_q3_q4_q5_q6_q7___">sequence(_:_:_:_:_:_:_:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will run the 7 passed-in parsers sequentially. Parsing only succeeds if all
+parsers succeed, and the resulting parser returns an tuple of the results.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">sequence</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">A</span><span class="p">,</span> <span class="kt">B</span><span class="p">,</span> <span class="kt">C</span><span class="p">,</span> <span class="kt">D</span><span class="p">,</span> <span class="kt">E</span><span class="p">,</span> <span class="kt">F</span><span class="p">,</span> <span class="kt">G</span><span class="p">,</span> <span class="kt">H</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">parserA</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">A</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserB</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">B</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserC</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">C</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserD</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">D</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserE</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">E</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserF</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">F</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserG</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">G</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserH</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">H</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">(</span><span class="kt">A</span><span class="p">,</span> <span class="kt">B</span><span class="p">,</span> <span class="kt">C</span><span class="p">,</span> <span class="kt">D</span><span class="p">,</span> <span class="kt">E</span><span class="p">,</span> <span class="kt">F</span><span class="p">,</span> <span class="kt">G</span><span class="p">,</span> <span class="kt">H</span><span class="p">)</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley8sequenceu8_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4__GS0_q_q5__GS0_q_q6__GS0_q_q7__GS0_q_q8___GS0_q_Tq0_q1_q2_q3_q4_q5_q6_q7_q8___"></a>
+                    <a name="//apple_ref/swift/Function/sequence(_:_:_:_:_:_:_:_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley8sequenceu8_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4__GS0_q_q5__GS0_q_q6__GS0_q_q7__GS0_q_q8___GS0_q_Tq0_q1_q2_q3_q4_q5_q6_q7_q8___">sequence(_:_:_:_:_:_:_:_:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will run the 8 passed-in parsers sequentially. Parsing only succeeds if all
+parsers succeed, and the resulting parser returns an tuple of the results.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">sequence</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">A</span><span class="p">,</span> <span class="kt">B</span><span class="p">,</span> <span class="kt">C</span><span class="p">,</span> <span class="kt">D</span><span class="p">,</span> <span class="kt">E</span><span class="p">,</span> <span class="kt">F</span><span class="p">,</span> <span class="kt">G</span><span class="p">,</span> <span class="kt">H</span><span class="p">,</span> <span class="kt">I</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">parserA</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">A</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserB</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">B</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserC</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">C</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserD</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">D</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserE</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">E</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserF</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">F</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserG</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">G</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserH</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">H</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserI</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">I</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">(</span><span class="kt">A</span><span class="p">,</span> <span class="kt">B</span><span class="p">,</span> <span class="kt">C</span><span class="p">,</span> <span class="kt">D</span><span class="p">,</span> <span class="kt">E</span><span class="p">,</span> <span class="kt">F</span><span class="p">,</span> <span class="kt">G</span><span class="p">,</span> <span class="kt">H</span><span class="p">,</span> <span class="kt">I</span><span class="p">)</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley8sequenceu9_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4__GS0_q_q5__GS0_q_q6__GS0_q_q7__GS0_q_q8__GS0_q_q9___GS0_q_Tq0_q1_q2_q3_q4_q5_q6_q7_q8_q9___"></a>
+                    <a name="//apple_ref/swift/Function/sequence(_:_:_:_:_:_:_:_:_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley8sequenceu9_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4__GS0_q_q5__GS0_q_q6__GS0_q_q7__GS0_q_q8__GS0_q_q9___GS0_q_Tq0_q1_q2_q3_q4_q5_q6_q7_q8_q9___">sequence(_:_:_:_:_:_:_:_:_:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will run the 9 passed-in parsers sequentially. Parsing only succeeds if all
+parsers succeed, and the resulting parser returns an tuple of the results.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">sequence</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">A</span><span class="p">,</span> <span class="kt">B</span><span class="p">,</span> <span class="kt">C</span><span class="p">,</span> <span class="kt">D</span><span class="p">,</span> <span class="kt">E</span><span class="p">,</span> <span class="kt">F</span><span class="p">,</span> <span class="kt">G</span><span class="p">,</span> <span class="kt">H</span><span class="p">,</span> <span class="kt">I</span><span class="p">,</span> <span class="kt">J</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">parserA</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">A</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserB</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">B</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserC</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">C</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserD</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">D</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserE</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">E</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserF</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">F</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserG</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">G</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserH</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">H</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">parserI</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">I</span><span class="o">&gt;</span><span class="p">,</span>  <span class="n">_</span> <span class="nv">parserJ</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">J</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">(</span><span class="kt">A</span><span class="p">,</span> <span class="kt">B</span><span class="p">,</span> <span class="kt">C</span><span class="p">,</span> <span class="kt">D</span><span class="p">,</span> <span class="kt">E</span><span class="p">,</span> <span class="kt">F</span><span class="p">,</span> <span class="kt">G</span><span class="p">,</span> <span class="kt">H</span><span class="p">,</span> <span class="kt">I</span><span class="p">,</span> <span class="kt">J</span><span class="p">)</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley8optionalu0_rFGVS_6Parserq_q0__GS0_q_GSqq0___"></a>
+                    <a name="//apple_ref/swift/Function/optional(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley8optionalu0_rFGVS_6Parserq_q0__GS0_q_GSqq0___">optional(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will attempt to parse with <code>parser</code>, but will backtrack and return <code>nil</code> on failure</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="kd">optional</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">parser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="p">?</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser to run.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley8optionalu0_rFGVS_6Parserq_GSaq0___GS0_q_GSaq0___"></a>
+                    <a name="//apple_ref/swift/Function/optional(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley8optionalu0_rFGVS_6Parserq_GSaq0___GS0_q_GSaq0___">optional(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will attempt to parse with <code>parser</code>, but will backtrack and return <code>nil</code> on failure</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="kd">optional</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">parser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">[</span><span class="kt">Result</span><span class="p">]</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">[</span><span class="kt">Result</span><span class="p">]</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser to run.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley8optionalu0_rFTGVS_6Parserq_q0__9otherwiseq0__GS0_q_q0__"></a>
+                    <a name="//apple_ref/swift/Function/optional(_:otherwise:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley8optionalu0_rFTGVS_6Parserq_q0__9otherwiseq0__GS0_q_q0__">optional(_:otherwise:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will attempt to parse with <code>parser</code>, but will backtrack and return <code>otherwise</code> on failure</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="kd">optional</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">parser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">,</span> <span class="nv">otherwise</span><span class="p">:</span> <span class="kt">Result</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser to run.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>otherwise</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The default value to return on failure.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley8recuriveu0_rFFGVS_6Parserq_q0__GS0_q_q0__GS0_q_q0__"></a>
+                    <a name="//apple_ref/swift/Function/recurive(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley8recuriveu0_rFFGVS_6Parserq_q0__GS0_q_q0__GS0_q_q0__">recurive(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that is able to recurse on itself.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">recurive</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">recurse</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>recurse</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A function that receives its <code>Parser</code> return value as an argument.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley9dropRightu1_rFTGVS_6Parserq_q0__GS0_q_q1___GS0_q_q0__"></a>
+                    <a name="//apple_ref/swift/Function/dropRight(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley9dropRightu1_rFTGVS_6Parserq_q0__GS0_q_q1___GS0_q_q0__">dropRight(_:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will run <code>leftParser</code> followed by <code>rightParser</code>, discarding the result from
+<code>rightParser</code> and returning the result from <code>leftParser</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">dropRight</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">LeftResult</span><span class="p">,</span> <span class="kt">RightResult</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">leftParser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">LeftResult</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">rightParser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">RightResult</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">LeftResult</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>leftParser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser whose result will be propagated.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>rightParser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser whose result will be discarded.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley8dropLeftu1_rFTGVS_6Parserq_q0__GS0_q_q1___GS0_q_q1__"></a>
+                    <a name="//apple_ref/swift/Function/dropLeft(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley8dropLeftu1_rFTGVS_6Parserq_q0__GS0_q_q1___GS0_q_q1__">dropLeft(_:_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will run <code>leftParser</code> followed by <code>rightParser</code>, discarding the result from
+<code>leftParser</code> and returning the result from <code>rightParser</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">dropLeft</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">LeftResult</span><span class="p">,</span> <span class="kt">RightResult</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">leftParser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">LeftResult</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">rightParser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">RightResult</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">RightResult</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>leftParser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser whose result will be discarded.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>rightParser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser whose result will be propagated.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley7betweenu2_rFTGVS_6Parserq_q0__GS0_q_q1__5parseGS0_q_q2___GS0_q_q2__"></a>
+                    <a name="//apple_ref/swift/Function/between(_:_:parse:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley7betweenu2_rFTGVS_6Parserq_q0__GS0_q_q1__5parseGS0_q_q2___GS0_q_q2__">between(_:_:parse:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will run <code>left</code> followed by <code>parser</code> followed by <code>right</code>,
+discarding the result from <code>left</code> and <code>right</code> and returning the result from <code>parser</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">between</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">LeftIgnore</span><span class="p">,</span> <span class="kt">RightIgnore</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">left</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">LeftIgnore</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">_</span> <span class="nv">right</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">RightIgnore</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">parse</span> <span class="nv">parser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>left</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The first parser whose result will be discarded.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>right</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The second parser whose result will be discarded.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser that will be run between the other two parsers.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley11terminatingu0_rFGVS_6Parserq_q0__GS0_q_q0__"></a>
+                    <a name="//apple_ref/swift/Function/terminating(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley11terminatingu0_rFGVS_6Parserq_q0__GS0_q_q0__">terminating(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will run <code>parser</code> and ensure that no input remains upon <code>parser</code>&rsquo;s completion.
+If any input does remain, an error is thrown.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">terminating</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">parser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser to be run.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley4manyu0_rFGVS_6Parserq_q0__GS0_q_GSaq0___"></a>
+                    <a name="//apple_ref/swift/Function/many(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley4manyu0_rFGVS_6Parserq_q0__GS0_q_GSaq0___">many(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will run <code>parser</code> 0 or more times, as many times as possible,
+and will result in an array of the results from each invocation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">many</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">parser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">[</span><span class="kt">Result</span><span class="p">]</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser to run repeatedly.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley5many1u0_rFGVS_6Parserq_q0__GS0_q_GSaq0___"></a>
+                    <a name="//apple_ref/swift/Function/many1(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley5many1u0_rFGVS_6Parserq_q0__GS0_q_GSaq0___">many1(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will run <code>parser</code> 1 or more time, as many times as possible,
+and will result in an array of the results from each invocation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">many1</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">parser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">[</span><span class="kt">Result</span><span class="p">]</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser to run repeatedly.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley13manyDelimitedu1_rFTGVS_6Parserq_q1__9delimiterGS0_q_q0___GS0_q_GSaq1___"></a>
+                    <a name="//apple_ref/swift/Function/manyDelimited(_:delimiter:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley13manyDelimitedu1_rFTGVS_6Parserq_q1__9delimiterGS0_q_q0___GS0_q_GSaq1___">manyDelimited(_:delimiter:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will run <code>parser</code> 0 or more times, as many times as possible,
+each subsequent time seperated by a delimiter, and will result in an array of the results
+from each invocation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">manyDelimited</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Ignore</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">parser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">,</span> <span class="nv">delimiter</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Ignore</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">[</span><span class="kt">Result</span><span class="p">]</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser to run repeatedly.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>delimiter</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser that matches the required delimiter.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley14many1Delimitedu1_rFTGVS_6Parserq_q1__9delimiterGS0_q_q0___GS0_q_GSaq1___"></a>
+                    <a name="//apple_ref/swift/Function/many1Delimited(_:delimiter:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley14many1Delimitedu1_rFTGVS_6Parserq_q1__9delimiterGS0_q_q0___GS0_q_GSaq1___">many1Delimited(_:delimiter:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will run <code>parser</code> 1 or more time, as many times as possible,
+each subsequent time seperated by a delimiter, and will result in an array of the results
+from each invocation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">many1Delimited</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Ignore</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">parser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">,</span> <span class="nv">delimiter</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Ignore</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">[</span><span class="kt">Result</span><span class="p">]</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser to run repeatedly.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>delimiter</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser that matches the required delimiter.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley5untilu1_rFTGVS_6Parserq_q0__5parseGS0_q_q1___GS0_q_GSaq1___"></a>
+                    <a name="//apple_ref/swift/Function/until(_:parse:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley5untilu1_rFTGVS_6Parserq_q0__5parseGS0_q_q1___GS0_q_GSaq1___">until(_:parse:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <pre class="highlight plaintext"><code>Constructs a `Parser` that will repeatedly run `condition` without consuming any input. Each time
+`condition` fails, `parse` will be run. Once `condition` succeeds, an array of the results from
+previous invocations of `parse` will be returned.
+
+It is important to note that this does not guarentee that a token sequence matched by `condition`
+will not pass through. In fact, `until` will only prevent the passage of such a token sequence
+if it lies on a "parse-boundary", that is, if it never occurs anywhere other than the beginning
+of the input `parse` will run on.
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">until</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Discard</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">condition</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Discard</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">parse</span> <span class="nv">parser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">[</span><span class="kt">Result</span><span class="p">]</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>condition</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser that will consume no input and will be used to determine when to stop running <code>parse</code>.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser that is run over and over to determine the result.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley5untilu0_rFGVS_6Parserq_q0__GS0_q_GSaq___"></a>
+                    <a name="//apple_ref/swift/Function/until(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley5untilu0_rFGVS_6Parserq_q0__GS0_q_GSaq___">until(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will repeatedly run <code>condition</code> without consuming any input. Each time
+<code>condition</code> fails, a single token will be parsed. Once <code>condition</code> succeeds, an array of parsed tokens
+will be returned.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">until</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Discard</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">condition</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Discard</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">[</span><span class="kt">Token</span><span class="p">]</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>condition</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser that will consume no input and will be used to determine when to stop parsing.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley7throughu0_rFTGVS_6Parserq_q0__5parseGS0_q_q0___GS0_q_GSaq0___"></a>
+                    <a name="//apple_ref/swift/Function/through(_:parse:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley7throughu0_rFTGVS_6Parserq_q0__5parseGS0_q_q0___GS0_q_GSaq0___">through(_:parse:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will repeatedly run <code>condition</code> without consuming any input. Each time
+<code>condition</code> fails, <code>parse</code> will be run. Once <code>condition</code> succeeds, an array of the results from
+previous invocations of <code>parse</code> with the final invocation of <code>condition</code> appended will be returned.</p>
+
+<p>It is important to note that this does not guarentee that a token sequence matched by <code>condition</code>
+will not pass through. In fact, <code>until</code> will only prevent the passage of such a token sequence
+if it lies on a <q>parse-boundary</q>, that is, if it never occurs anywhere other than the beginning
+of the input <code>parse</code> will run on.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">through</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">condition</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">parse</span> <span class="nv">parser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">[</span><span class="kt">Result</span><span class="p">]</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>condition</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser that will consume no input and will be used to determine when to stop running <code>parse</code>.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser that is run over and over to determine the result.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley7throughu0_rFTGVS_6Parserq_GSaq0___5parseGS0_q_q0___GS0_q_GSaq0___"></a>
+                    <a name="//apple_ref/swift/Function/through(_:parse:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley7throughu0_rFTGVS_6Parserq_GSaq0___5parseGS0_q_q0___GS0_q_GSaq0___">through(_:parse:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will repeatedly run <code>condition</code> without consuming any input. Each time
+<code>condition</code> fails, <code>parse</code> will be run. Once <code>condition</code> succeeds, an array of the results from
+previous invocations of <code>parse</code> and the final invocation of <code>condition</code> will be returned.</p>
+
+<p>It is important to note that this does not guarentee that a token sequence matched by <code>condition</code>
+will not pass through. In fact, <code>until</code> will only prevent the passage of such a token sequence
+if it lies on a <q>parse-boundary</q>, that is, if it never occurs anywhere other than the beginning
+of the input <code>parse</code> will run on.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">through</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">condition</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">[</span><span class="kt">Result</span><span class="p">]</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">parse</span> <span class="nv">parser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">[</span><span class="kt">Result</span><span class="p">]</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>condition</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser that will consume no input and will be used to determine when to stop running <code>parse</code>.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser that is run over and over to determine the result.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley7throughu0_rFTGVS_6Parserq_q0__5parseGS0_q_GSaq0____GS0_q_GSaq0___"></a>
+                    <a name="//apple_ref/swift/Function/through(_:parse:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley7throughu0_rFTGVS_6Parserq_q0__5parseGS0_q_GSaq0____GS0_q_GSaq0___">through(_:parse:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will repeatedly run <code>condition</code> without consuming any input. Each time
+<code>condition</code> fails, <code>parse</code> will be run. Once <code>condition</code> succeeds, an array of the results from
+previous invocations of <code>parse</code> with the final invocation of <code>condition</code> appended will be returned.</p>
+
+<p>It is important to note that this does not guarentee that a token sequence matched by <code>condition</code>
+will not pass through. In fact, <code>until</code> will only prevent the passage of such a token sequence
+if it lies on a <q>parse-boundary</q>, that is, if it never occurs anywhere other than the beginning
+of the input <code>parse</code> will run on.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">through</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">condition</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">parse</span> <span class="nv">parser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">[</span><span class="kt">Result</span><span class="p">]</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">[</span><span class="kt">Result</span><span class="p">]</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>condition</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser that will consume no input and will be used to determine when to stop running <code>parse</code>.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser that is run over and over to determine the result.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley7throughu0_rFTGVS_6Parserq_GSaq0___5parseGS0_q_GSaq0____GS0_q_GSaq0___"></a>
+                    <a name="//apple_ref/swift/Function/through(_:parse:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley7throughu0_rFTGVS_6Parserq_GSaq0___5parseGS0_q_GSaq0____GS0_q_GSaq0___">through(_:parse:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will repeatedly run <code>condition</code> without consuming any input. Each time
+<code>condition</code> fails, <code>parse</code> will be run. Once <code>condition</code> succeeds, an array of the results from
+previous invocations of <code>parse</code> with the final invocation of <code>condition</code> appended will be returned.</p>
+
+<p>It is important to note that this does not guarentee that a token sequence matched by <code>condition</code>
+will not pass through. In fact, <code>until</code> will only prevent the passage of such a token sequence
+if it lies on a <q>parse-boundary</q>, that is, if it never occurs anywhere other than the beginning
+of the input <code>parse</code> will run on.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">through</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Result</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">condition</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">[</span><span class="kt">Result</span><span class="p">]</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">parse</span> <span class="nv">parser</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">[</span><span class="kt">Result</span><span class="p">]</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">[</span><span class="kt">Result</span><span class="p">]</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>condition</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser that will consume no input and will be used to determine when to stop running <code>parse</code>.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parser</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser that is run over and over to determine the result.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley7throughurFGVS_6Parserq_q__GS0_q_GSaq___"></a>
+                    <a name="//apple_ref/swift/Function/through(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley7throughurFGVS_6Parserq_q__GS0_q_GSaq___">through(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will repeatedly run <code>condition</code> without consuming any input. Each time
+<code>condition</code> fails, a single token will be parsed. Once <code>condition</code> succeeds, an array of parsed token
+with the final invocation of <code>condition</code> appended will be returned.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">through</span><span class="o">&lt;</span><span class="kt">Token</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">condition</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">Token</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">[</span><span class="kt">Token</span><span class="p">]</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>condition</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser that will consume no input and will be used to determine when to stop parsing.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley7throughurFGVS_6Parserq_GSaq___GS0_q_GSaq___"></a>
+                    <a name="//apple_ref/swift/Function/through(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley7throughurFGVS_6Parserq_GSaq___GS0_q_GSaq___">through(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will repeatedly run <code>condition</code> without consuming any input. Each time
+<code>condition</code> fails, a single token will be parsed. Once <code>condition</code> succeeds, an array of parsed token
+and the final invocation of <code>condition</code> will be returned.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">through</span><span class="o">&lt;</span><span class="kt">Token</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">condition</span><span class="p">:</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">[</span><span class="kt">Token</span><span class="p">]</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="p">[</span><span class="kt">Token</span><span class="p">]</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>condition</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parser that will consume no input and will be used to determine when to stop parsing.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley9characterFVSs9CharacterGVS_6ParserS0_S0__"></a>
+                    <a name="//apple_ref/swift/Function/character(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley9characterFVSs9CharacterGVS_6ParserS0_S0__">character(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Construct a <code>Parser</code> that matches a given character.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">character</span><span class="p">(</span><span class="nv">character</span><span class="p">:</span> <span class="kt">Character</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Character</span><span class="p">,</span> <span class="kt">Character</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>character</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The character to match against.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley12anyCharacterFtGSaVSs9Character__GVS_6ParserS0_S0__"></a>
+                    <a name="//apple_ref/swift/Function/anyCharacter(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley12anyCharacterFtGSaVSs9Character__GVS_6ParserS0_S0__">anyCharacter(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that consumes a single token and returns the token
+if it is within the variadic list <code>tokens</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">anyCharacter</span><span class="p">(</span><span class="nv">characters</span><span class="p">:</span> <span class="kt">Character</span><span class="o">...</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Character</span><span class="p">,</span> <span class="kt">Character</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>tokens</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The variadic list that the input is tested against.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley6stringFSSGVS_6ParserVSs9CharacterGSaS1___"></a>
+                    <a name="//apple_ref/swift/Function/string(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley6stringFSSGVS_6ParserVSs9CharacterGSaS1___">string(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that matches a given string of text.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">string</span><span class="p">(</span><span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Character</span><span class="p">,</span> <span class="p">[</span><span class="kt">Character</span><span class="p">]</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>text</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The string of text to match against.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley6letterFT_GVS_6ParserVSs9CharacterS1__"></a>
+                    <a name="//apple_ref/swift/Function/letter()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley6letterFT_GVS_6ParserVSs9CharacterS1__">letter()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that succeeds upon consuming a letter
+from the English alphabet.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">letter</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Character</span><span class="p">,</span> <span class="kt">Character</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley5digitFT_GVS_6ParserVSs9CharacterS1__"></a>
+                    <a name="//apple_ref/swift/Function/digit()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley5digitFT_GVS_6ParserVSs9CharacterS1__">digit()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that succeeds upon consuming an
+Arabic numeral.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">digit</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Character</span><span class="p">,</span> <span class="kt">Character</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley10whitespaceFT_GVS_6ParserVSs9CharacterS1__"></a>
+                    <a name="//apple_ref/swift/Function/whitespace()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley10whitespaceFT_GVS_6ParserVSs9CharacterS1__">whitespace()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that succeeds upon consuming whitespace character.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">whitespace</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Character</span><span class="p">,</span> <span class="kt">Character</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley6withinFSSGVS_6ParserVSs9CharacterS1__"></a>
+                    <a name="//apple_ref/swift/Function/within(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley6withinFSSGVS_6ParserVSs9CharacterS1__">within(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that consumes a single token and returns the token
+if it is within the string <code>string</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">within</span><span class="p">(</span><span class="nv">string</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Character</span><span class="p">,</span> <span class="kt">Character</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sequence</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The sequence that the input is tested against.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:F7Parsley9appendingurFtGSaGVS_6Parserq_SS___GS0_q_SS_"></a>
+                    <a name="//apple_ref/swift/Function/appending(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:F7Parsley9appendingurFtGSaGVS_6Parserq_SS___GS0_q_SS_">appending(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs a <code>Parser</code> that will parse will each element of <code>parsers</code>, sequentially. Parsing only succeeds if every
+parser succeeds, and the resulting parser returns an array of the results.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">appending</span><span class="o">&lt;</span><span class="kt">Token</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">parsers</span><span class="p">:</span> <span class="p">(</span><span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">String</span><span class="o">&gt;</span><span class="p">)</span><span class="o">...</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Parser</span><span class="o">&lt;</span><span class="kt">Token</span><span class="p">,</span> <span class="kt">String</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parsers</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The variadic list of parsers to sequentially run.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2015 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2015-10-19)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.3.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

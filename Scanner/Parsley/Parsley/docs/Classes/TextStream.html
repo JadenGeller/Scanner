@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TextStream Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/TextStream" class="dashAnchor"></a>
+    <a title="TextStream Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (59% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        TextStream Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+          <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/InputStream.html">InputStream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ParseState.html">ParseState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TextStream.html">TextStream</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+          <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/Either.html">Either</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+          <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Parser.html">Parser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/ParserType.html">ParserType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/StreamType.html">StreamType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+          <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley3anyurFT_GVS_6Parserq_q__">any()</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley12anyCharacterFtGSaVSs9Character__GVS_6ParserS0_S0__">anyCharacter(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley9appendingurFtGSaGVS_6Parserq_SS___GS0_q_SS_">appending(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley7attemptu0_rFGVS_6Parserq_q0__GS0_q_q0__">attempt(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley7betweenu2_rFTGVS_6Parserq_q0__GS0_q_q1__5parseGS0_q_q2___GS0_q_q2__">between(_:_:parse:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley9characterFVSs9CharacterGVS_6ParserS0_S0__">character(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley8coalesceu1_Rq1_Ss12SequenceTypezqqq1_S0_9GeneratorSs13GeneratorType7ElementGVS_6Parserq_q0___Fq1_GS2_q_q0__">coalesce(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley8coalesceu0_rFtGSaGVS_6Parserq_q0____GS0_q_q0__">coalesce(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley5digitFT_GVS_6ParserVSs9CharacterS1__">digit()</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley8dropLeftu1_rFTGVS_6Parserq_q0__GS0_q_q1___GS0_q_q1__">dropLeft(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley9dropRightu1_rFTGVS_6Parserq_q0__GS0_q_q1___GS0_q_q0__">dropRight(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley6eitheru1_rFTGVS_6Parserq_q0__GS0_q_q1___GS0_q_GOS_6Eitherq0_q1___">either(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley3endurFT_GVS_6Parserq_T__">end()</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley6letterFT_GVS_6ParserVSs9CharacterS1__">letter()</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley9lookaheadu0_rFGVS_6Parserq_q0__GS0_q_q0__">lookahead(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley4manyu0_rFGVS_6Parserq_q0__GS0_q_GSaq0___">many(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley5many1u0_rFGVS_6Parserq_q0__GS0_q_GSaq0___">many1(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley14many1Delimitedu1_rFTGVS_6Parserq_q1__9delimiterGS0_q_q0___GS0_q_GSaq1___">many1Delimited(_:delimiter:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley13manyDelimitedu1_rFTGVS_6Parserq_q1__9delimiterGS0_q_q0___GS0_q_GSaq1___">manyDelimited(_:delimiter:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley4noneurFT_GVS_6Parserq_T__">none()</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley3notu0_rFGVS_6Parserq_q0__GS0_q_T__">not(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley8optionalu0_rFGVS_6Parserq_q0__GS0_q_GSqq0___">optional(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley8optionalu0_rFGVS_6Parserq_GSaq0___GS0_q_GSaq0___">optional(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley8optionalu0_rFTGVS_6Parserq_q0__9otherwiseq0__GS0_q_q0__">optional(_:otherwise:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley12preconditionu1_rFTGVS_6Parserq_q0__9thenParseGS0_q_q1___GS0_q_q1__">precondition(_:thenParse:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley4pureu0_rFq0_GVS_6Parserq_q0__">pure(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley8recuriveu0_rFFGVS_6Parserq_q0__GS0_q_q0__GS0_q_q0__">recurive(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley7satisfyurFFq_SbGVS_6Parserq_q__">satisfy(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley7satisfyurFTSSFq_Sb_GVS_6Parserq_q__">satisfy(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley8sequenceu1_rFTGVS_6Parserq_q0__GS0_q_q1___GS0_q_Tq0_q1___">sequence(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley8sequenceu2_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2___GS0_q_Tq0_q1_q2___">sequence(_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley8sequenceu3_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3___GS0_q_Tq0_q1_q2_q3___">sequence(_:_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley8sequenceu4_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4___GS0_q_Tq0_q1_q2_q3_q4___">sequence(_:_:_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley8sequenceu5_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4__GS0_q_q5___GS0_q_Tq0_q1_q2_q3_q4_q5___">sequence(_:_:_:_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley8sequenceu6_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4__GS0_q_q5__GS0_q_q6___GS0_q_Tq0_q1_q2_q3_q4_q5_q6___">sequence(_:_:_:_:_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley8sequenceu7_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4__GS0_q_q5__GS0_q_q6__GS0_q_q7___GS0_q_Tq0_q1_q2_q3_q4_q5_q6_q7___">sequence(_:_:_:_:_:_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley8sequenceu8_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4__GS0_q_q5__GS0_q_q6__GS0_q_q7__GS0_q_q8___GS0_q_Tq0_q1_q2_q3_q4_q5_q6_q7_q8___">sequence(_:_:_:_:_:_:_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley8sequenceu9_rFTGVS_6Parserq_q0__GS0_q_q1__GS0_q_q2__GS0_q_q3__GS0_q_q4__GS0_q_q5__GS0_q_q6__GS0_q_q7__GS0_q_q8__GS0_q_q9___GS0_q_Tq0_q1_q2_q3_q4_q5_q6_q7_q8_q9___">sequence(_:_:_:_:_:_:_:_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley9sequencedu1_Rq1_Ss12SequenceTypezqqq1_S0_9GeneratorSs13GeneratorType7ElementGVS_6Parserq_q0___Fq1_GS2_q_GSaq0___">sequenced(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley9sequencedu0_rFtGSaGVS_6Parserq_q0____GS0_q_GSaq0___">sequenced(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley6stringFSSGVS_6ParserVSs9CharacterGSaS1___">string(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley11terminatingu0_rFGVS_6Parserq_q0__GS0_q_q0__">terminating(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley7throughurFGVS_6Parserq_q__GS0_q_GSaq___">through(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley7throughurFGVS_6Parserq_GSaq___GS0_q_GSaq___">through(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley7throughu0_rFTGVS_6Parserq_GSaq0___5parseGS0_q_q0___GS0_q_GSaq0___">through(_:parse:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley7throughu0_rFTGVS_6Parserq_q0__5parseGS0_q_GSaq0____GS0_q_GSaq0___">through(_:parse:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley7throughu0_rFTGVS_6Parserq_q0__5parseGS0_q_q0___GS0_q_GSaq0___">through(_:parse:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley7throughu0_rFTGVS_6Parserq_GSaq0___5parseGS0_q_GSaq0____GS0_q_GSaq0___">through(_:parse:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley5tokenuRq_Ss9Equatable_Fq_GVS_6Parserq_q__">token(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley6unlessu0_rFGVS_6Parserq_q0__GS0_q_q__">unless(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley6unlessu1_rFTGVS_6Parserq_q0__5parseGS0_q_q1___GS0_q_q1__">unless(_:parse:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley5untilu0_rFGVS_6Parserq_q0__GS0_q_GSaq___">until(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley5untilu1_rFTGVS_6Parserq_q0__5parseGS0_q_q1___GS0_q_GSaq1___">until(_:parse:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley10whitespaceFT_GVS_6ParserVSs9CharacterS1__">whitespace()</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley6withinFSSGVS_6ParserVSs9CharacterS1__">within(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley6withinuRq_Ss12SequenceTypeqqq_S0_9GeneratorSs13GeneratorType7ElementSs9Equatable_Fq_GVS_6Parserqqq_S0_9GeneratorS1_7Elementqqq_S0_9GeneratorS1_7Element_">within(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7Parsley6withinuRq_Ss12IntervalType_Fq_GVS_6Parserqq_S0_5Boundqq_S0_5Bound_">within(_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+          <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/ParserType.html">ParserType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/StreamType.html">StreamType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+          <a href="../Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/ParseError.html">ParseError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ParseStateSnapshot.html">ParseStateSnapshot</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Parser.html">Parser</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>TextStream</h1>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC7Parsley10TextStream5stateGCS_10ParseStateVSs9Character_"></a>
+                    <a name="//apple_ref/swift/Property/state" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC7Parsley10TextStream5stateGCS_10ParseStateVSs9Character_">state</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC7Parsley10TextStream5errorGSqVS_10ParseError_"></a>
+                    <a name="//apple_ref/swift/Property/error" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC7Parsley10TextStream5errorGSqVS_10ParseError_">error</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC7Parsley10TextStream16ignoreWhitespaceSb"></a>
+                    <a name="//apple_ref/swift/Property/ignoreWhitespace" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC7Parsley10TextStream16ignoreWhitespaceSb">ignoreWhitespace</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC7Parsley10TextStreamcFMS0_FSSS0_"></a>
+                    <a name="//apple_ref/swift/Method/init(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC7Parsley10TextStreamcFMS0_FSSS0_">init(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC7Parsley10TextStream10combinatorurFS0_FGVS_6ParserVSs9Characterq__GS1_S2_q__"></a>
+                    <a name="//apple_ref/swift/Method/combinator(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC7Parsley10TextStream10combinatorurFS0_FGVS_6ParserVSs9Characterq__GS1_S2_q__">combinator(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2015 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2015-10-19)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.3.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

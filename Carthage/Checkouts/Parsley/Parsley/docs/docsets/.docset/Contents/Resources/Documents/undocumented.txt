@@ -1,0 +1,58 @@
+Base.swift
+	public func satisfy<Token>(description: String, _ condition: Token -> Bool) -> Parser<Token, Token>
+Coalescing.swift
+	case Left(A)
+	case Right(B)
+ParserType.swift
+	public protocol ParserType
+	func parse(state: ParseState<Token>) throws -> Result
+	func flatMap<MappedResult>(transform: Result throws -> Parser<Token, MappedResult>) -> Parser<Token, MappedResult>
+	public protocol ParserType
+	public func parse<Sequence: SequenceType where Sequence.Generator: ForkableGeneratorType, Sequence.Generator.Element == Token>(sequence: Sequence) throws -> Result
+	public func parse<Sequence: SequenceType where Sequence.Generator.Element == Token>(sequence: Sequence) throws -> Result
+	public protocol ParserType
+	public protocol ParserType
+	public protocol ParserType
+	public protocol ParserType
+	public protocol ParserType
+	public protocol ParserType
+ParseState.swift
+	public struct ParseStateSnapshot<Element>
+	public func restoreImage() -> AnyForkableGenerator<Element>
+	public final class ParseState<Element>: GeneratorType
+	public convenience init<G: GeneratorType where G.Element == Element>(bridgedFromGenerator generator: G)
+	public init<G: ForkableGeneratorType where G.Element == Element>(forkableGenerator: G)
+	public func next() -> Element?
+	public func snapshot() -> ParseStateSnapshot<Element>
+	public func rewind(toSnapshot snapshot: ParseStateSnapshot<Element>)
+Parser.swift
+	public func requiring(description: String, _ condition: Result -> Bool) -> Parser<Token, Result>
+Debug.swift
+	public func printAttempt(message: String? = nil) -> Parser<Token, Result>
+	public func printSuccess(message: String? = nil) -> Parser<Token, Result>
+	public func printFailure(message: String? = nil) -> Parser<Token, Result>
+	public func printNext(message: String? = nil) -> Parser<Token, Result>
+	public func printAll(message: String? = nil) -> Parser<Token, Result>
+InputStream.swift
+	public protocol StreamType: class, BooleanType
+	var state: ParseState<Token> { get }
+	var error: ParseError? { get set }
+	func combinator<Result>(parser: Parser<Token, Result>) -> Parser<Token, Result>
+	public protocol StreamType :  class, BooleanType
+	public var boolValue: Bool
+	public class InputStream<Token>: StreamType
+	public let state: ParseState<Token>
+	public var error: ParseError?
+	public init<Sequence: SequenceType where Sequence.Generator.Element == Token>(sequence: Sequence)
+	public init<Sequence: SequenceType where Sequence.Generator: ForkableGeneratorType, Sequence.Generator.Element == Token>(sequence: Sequence)
+	public func combinator<Result>(parser: Parser<Token, Result>) -> Parser<Token, Result>
+	public class TextStream: StreamType
+	public let state: ParseState<Character>
+	public var error: ParseError?
+	public var ignoreWhitespace = true
+	public init(_ string: String)
+	public func combinator<Result>(parser: Parser<Character, Result>) -> Parser<Character, Result>
+ParseError.swift
+	public struct ParseError: ErrorType, CustomStringConvertible
+	public init(_ message: String)
+	public var description: String
